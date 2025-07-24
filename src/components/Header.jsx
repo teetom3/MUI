@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, IconButton, Avatar } from "@mui/material";
-import useTheme from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 const Header = () => {
   const theme = useTheme();
   return (
