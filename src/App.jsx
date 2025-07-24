@@ -39,12 +39,10 @@ const App = () => {
               </Grid>
             </Grid>
 
-            {/* Graphique */}
             <Box sx={{ mb: 4 }}>
               <Chart />
             </Box>
 
-            {/* Tableau des commandes */}
             <OrdersTable />
           </Box>
         </Box>
